@@ -29,9 +29,9 @@ const Footer = () => {
           >
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">HK</span>
+                <span className="text-white font-bold">Nish</span>
               </div>
-              <span className="font-bold text-lg">Harendra Kumar</span>
+              <span className="font-bold text-lg">Nitesh Kumar</span>
             </div>
             <p className="text-slate-400 leading-relaxed">
               Full-Stack Developer & AI Enthusiast, building modern web experiences with cutting-edge technologies.
@@ -70,9 +70,9 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Connect</h3>
             <div className="flex gap-4">
               {[
-                { label: 'GitHub', url: 'https://github.com/karan25012002' },
-                { label: 'LinkedIn', url: 'https://www.linkedin.com/in/harendra-kumar-00130732a/' },
-                { label: 'Twitter', url: 'https://x.com/kumar_hare10148' },
+                { label: 'GitHub', url: 'https://github.com/nitesh680/' },
+                { label: 'LinkedIn', url: 'https://www.linkedin.com/in/nitesh-kumar-4927bb2b9/' },
+                { label: 'Twitter', url: 'https://x.com/niteshhx' },
               ].map((social) => (
                 <motion.a
                   key={social.label}
@@ -96,7 +96,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center text-slate-400 text-sm">
           <p>
-            © {currentYear} Harendra Kumar. All rights reserved. | Designed & Built with ❤️
+            © {currentYear} Nitesh Kumar. All rights reserved. | Designed & Built with ❤️
           </p>
 
           <motion.button

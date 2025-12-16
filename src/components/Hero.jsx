@@ -100,7 +100,7 @@ const Hero = () => {
                 href="https://x.com/nitesh"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full text-white shadow-lg hover:shadow-xl transition-all duration-300"
+                className="p-3 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full text-white shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <FaTwitter size={24} />
               </motion.a>
@@ -150,13 +150,47 @@ const Hero = () => {
               className="relative w-64 h-64 md:w-80 md:h-80"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl opacity-20 blur-xl"></div>
-              <div className="relative w-full h-full bg-gradient-to-r from-slate-300 to-slate-400 dark:from-slate-700 dark:to-slate-800 rounded-2xl overflow-hidden border-2 border-slate-400 dark:border-slate-600">
+              <div className="relative w-full h-full bg-gradient-to-r from-slate-300 to-slate-400 dark:from-slate-700 dark:to-slate-800 rounded-full overflow-hidden border-2 border-slate-400 dark:border-slate-600">
                 <img 
                   src={`${import.meta.env.BASE_URL}images/aryan.jpg`}
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />
               </div>
+              
+              {/* Animated Name Display */}
+              <motion.div 
+                className="absolute -bottom-16 left-1/4 transform -translate-x-1/2 text-center"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5 }}
+              >
+                <motion.div 
+                  className="bg-blue-900 text-white px-6 py-2 rounded-full shadow-lg backdrop-blur-sm drop-shadow-[0_0_15px_rgba(30,144,255,0.6)] border border-blue-500"
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.6 }}
+                >
+                  <div className="flex gap-1 items-center">
+                    <motion.span
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.3, delay: 0.7 }}
+                      className="text-2xl md:text-3xl font-bold"
+                    >
+                      Nitesh
+                    </motion.span>
+                    <motion.span
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.3, delay: 1.0 }}
+                      className="text-2xl md:text-3xl font-bold"
+                    >
+                      Kumar
+                    </motion.span>
+                  </div>
+                </motion.div>
+              </motion.div>
             </motion.div>
           </motion.div>
         </motion.div>

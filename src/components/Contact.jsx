@@ -45,12 +45,12 @@ const Contact = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'e6d0858d-71ef-434e-85b3-47cd425a040f',
+          access_key: '0efe508a-3133-4811-a408-0489e90546d0',
           name: formData.name,
           email: formData.email,
           subject: formData.subject || 'Portfolio Contact',
           message: formData.message,
-          to_email: 'niteshkumar02122003@gmail.com',
+          to_email: 'niteshhx@gmail.com',
         }),
       });
 
@@ -114,8 +114,8 @@ const Contact = () => {
             {
               icon: FiMail,
               label: 'Email',
-              value: 'niteshkumar02122003@gmail.com',
-              href: 'mailto:niteshkumar02122003@gmail.com',
+              value: 'niteshhx@gmail.com',
+              href: 'mailto:niteshhx@gmail.com',
             },
             {
               icon: FiPhone,
@@ -283,22 +283,22 @@ const Contact = () => {
                     {
                       icon: FaGithub,
                       label: 'GitHub',
-                      href: 'https://github.com/karan25012002',
+                      href: 'https://github.com/nitesh680/',
                     },
                     {
                       icon: FaLinkedin,
                       label: 'LinkedIn',
-                      href: 'https://www.linkedin.com/in/harendra-kumar-00130732a/',
+                      href: 'https://www.linkedin.com/in/nitesh-kumar-4927bb2b9/',
                     },
                     {
                       icon: FaTwitter,
                       label: 'Twitter',
-                      href: 'https://x.com/kumar_hare10148',
+                      href: 'https://x.com/niteshhx',
                     },
                     {
                       icon: FaInstagram,
                       label: 'Instagram',
-                      href: 'https://www.instagram.com/karan25_____/',
+                      href: 'https://www.instagram.com/niteshhx/',
                     },
                   ].map((social, index) => {
                     const Icon = social.icon;
