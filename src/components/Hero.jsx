@@ -97,7 +97,7 @@ const Hero = () => {
                   boxShadow: '0 10px 30px rgba(59, 130, 246, 0.5)'
                 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://x.com/nitesh"
+                href="https://x.com/niteshhx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full text-white shadow-lg hover:shadow-xl transition-all duration-300"
