@@ -259,7 +259,7 @@ For questions or issues, feel free to:
 
 ---
 
-**Built with ❤️ by Harendra Kumar**
+**Built with ❤️ by Nitesh Kumar**
 
 ## Deployment
 This project is configured for deployment on:
